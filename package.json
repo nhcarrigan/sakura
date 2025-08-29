@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "op run --env-file=prod.env -- node index.js"
+    "start": "op run --env-file=prod.env -- node prod/index.js"
   },
   "keywords": [],
   "author": "",
