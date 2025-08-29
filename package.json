@@ -1,0 +1,26 @@
+{
+  "name": "sakura",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "op run --env-file=prod.env -- node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.0",
+  "devDependencies": {
+    "@nhcarrigan/typescript-config": "4.0.0",
+    "@types/node": "24.3.0",
+    "tsx": "4.20.5",
+    "typescript": "5.9.2"
+  },
+  "dependencies": {
+    "@nhcarrigan/logger": "1.0.0",
+    "discord.js": "14.22.1",
+    "fastify": "5.5.0"
+  }
+}
