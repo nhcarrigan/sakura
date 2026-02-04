@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@nhcarrigan/logger':
-        specifier: 1.0.0
-        version: 1.0.0
+        specifier: 1.1.1
+        version: 1.1.1
       discord.js:
         specifier: 14.22.1
         version: 14.22.1
@@ -235,8 +235,8 @@ packages:
   '@fastify/proxy-addr@5.0.0':
     resolution: {integrity: sha512-37qVVA1qZ5sgH7KpHkkC4z9SK6StIsIcOmpjvMPXNb3vx2GQxhZocogVYbr2PbbeLCQxYIPDok307xEvRZOzGA==}
 
-  '@nhcarrigan/logger@1.0.0':
-    resolution: {integrity: sha512-2e19Bie+ZKb6yKPKjhawqsENkhHatYkvBAmFZx9eToOXdOca+CYi51tldRMtejg6e0+4hOOf2bo5zdBQKmH0dw==}
+  '@nhcarrigan/logger@1.1.1':
+    resolution: {integrity: sha512-P6OEQFHDtf6psybYGljuCxkSW6DLQCsx1aZZ3w4YKBXHBFjDbhuvpM9K1kPhVN48hakitx2WPLEoIFr6YZELYw==}
 
   '@nhcarrigan/typescript-config@4.0.0':
     resolution: {integrity: sha512-969HVha7A/Sg77fuMwOm6p14a+7C5iE6g55OD71srqwKIgksQl+Ex/hAI/pyzTQFDQ/FBJbpnHlR4Ov25QV/rw==}
@@ -628,7 +628,7 @@ snapshots:
       '@fastify/forwarded': 3.0.0
       ipaddr.js: 2.2.0
 
-  '@nhcarrigan/logger@1.0.0': {}
+  '@nhcarrigan/logger@1.1.1': {}
 
   '@nhcarrigan/typescript-config@4.0.0(typescript@5.9.2)':
     dependencies:
